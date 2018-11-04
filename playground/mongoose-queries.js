@@ -4,7 +4,7 @@ var {Todo} = require('./../server/models/todo');
 
 var id = '5bddd3839d2aa70a53feff13';
 
-if (!ObjectID.isValid()){
+if (!ObjectID.isValid(id)){
     console.log('Id not valid!');
 }
 
